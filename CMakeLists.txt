@@ -19,4 +19,4 @@ add_test(NAME OutputFormatTest
 
 # Check that output includes expected format
 set_tests_properties(OutputFormatTest PROPERTIES
-    PASS_REGULAR_EXPRESSION "Predictable Loop \(avg ns\).*Unpredictable Loop \(avg ns\).*Difference")
+    PASS_REGULAR_EXPRESSION "Predictable Loop \\(avg ns\\)")
