@@ -71,7 +71,7 @@ This creates:
 - Unpredictable loop times are significantly higher due to branch misprediction penalties.
 
 ### Execution Time Difference per Trial
-![Execution Difference](https://github.com/zgrigoryan/branch_prediction_experiment/blob/main/execution_time_differences.png)
+![Execution Difference](difference_per_trial.png)
 
 - The difference quantifies the *cost* of misprediction.
 - For large `--size` (e.g., 10 million iterations), the cost can be **hundreds of millions of nanoseconds**.
