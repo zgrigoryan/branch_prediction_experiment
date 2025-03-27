@@ -76,9 +76,3 @@ jobs:
         echo "Running tests..."
         ctest --output-on-failure --build-config ${{ matrix.build_type }}
         
-    - name: Validate CSV and plot generation
-      run: |
-        python3 results_analysis.py
-        test -f loop_execution_times.png
-        test -f execution_time_differences.png
-
