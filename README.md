@@ -65,13 +65,13 @@ This creates:
 ## Results
 
 ### Loop Execution Time per Trial
-![Loop Execution](loop_execution_times.png)
+![Loop Execution]([loop_execution_times.png](https://github.com/zgrigoryan/branch_prediction_experiment/blob/main/loop_execution_time.png))
 
 - Predictable loop times remain stable and low.
 - Unpredictable loop times are significantly higher due to branch misprediction penalties.
 
 ### Execution Time Difference per Trial
-![Execution Difference](execution_time_differences.png)
+![Execution Difference]([execution_time_differences.png](https://github.com/zgrigoryan/execution_time_differences/blob/main/loop_execution_time.png))
 
 - The difference quantifies the *cost* of misprediction.
 - For large `--size` (e.g., 10 million iterations), the cost can be **hundreds of millions of nanoseconds**.
